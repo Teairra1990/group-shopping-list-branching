@@ -44,12 +44,13 @@ function App() {
         })
         .catch(err => console.log(err))
     }
-
+    
     return (
         <div className="App">
             <Header />
             <main>
                 <h1> Add to List </h1>
+                <p> my p tag</p>
                 <form>
                 <label>Item: </label>
                 <input type="text"></input>
