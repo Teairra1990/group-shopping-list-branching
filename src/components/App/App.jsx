@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Header from '../Header/Header';
 import './App.css';
+ 
     
 // it was the import Axios part
 //now its running when i deleted it its up
@@ -57,7 +58,7 @@ function App() {
                 <input type="text"></input>
                 <label>Unit: </label>
                 <input type="text"></input>
-                <button type="submit">Save</button>
+                <button variant="contained">Submit</button>
                 </form>
             </main>
         </div>
