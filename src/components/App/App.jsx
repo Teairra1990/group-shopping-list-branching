@@ -2,7 +2,11 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Header from '../Header/Header';
+import Contact from './Contact';
+import Contact from './components/Contact';
+
 import './App.css';
+
     
 // it was the import Axios part
 //now its running when i deleted it its up
