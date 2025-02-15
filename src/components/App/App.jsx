@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Header from '../Header/Header';
 import './App.css';
+import Button from '@mui/material/Button';
  
     
 // it was the import Axios part
@@ -58,7 +59,7 @@ function App() {
                 <input type="text"></input>
                 <label>Unit: </label>
                 <input type="text"></input>
-                <button variant="contained">Submit</button>
+                <Button variant="contained">Submit</Button>
                 </form>
             </main>
         </div>
